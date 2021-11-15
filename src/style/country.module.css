@@ -1,0 +1,40 @@
+.country__container {
+    flex: 1;
+    max-height: 350px;
+    overflow: scroll;
+}
+
+.country__container::-webkit-scrollbar {
+    display: none;
+}
+
+.country__data {}
+
+.country__data>tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    align-items: center;
+    /* background: whitesmoke; */
+    color: gray;
+    border-radius: 5px;
+}
+
+.country__data>tr>td {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: monospace;
+    /* color: gray; */
+    padding: 2px 5px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    align-items: center;
+}
+
+.country__data>tr:nth-of-type(odd) {
+    background: lightgray;
+    color: white !important;
+}

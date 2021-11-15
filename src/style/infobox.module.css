@@ -1,0 +1,32 @@
+.infobox__container {
+    background: whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.infobox__container>h3 {
+    color: gray;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 3px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infobox__container>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 3px 5px;
+}
+
+.infobox__container>p {
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    padding: 3px 5px;
+    font-family: monospace;
+}
